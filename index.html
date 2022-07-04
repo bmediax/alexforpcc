@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<!--
+	Hi there!
+
+	My name is Brian Moreno, the Web Developer for the AlexforPCC team. Yes, I manually designed, coded and programmed everything you see here.
+
+	Want to learn more about me? Here is my social media, I offer photography, graphic design and web development services!
+
+	Web Developer: Brian Moreno ( Bmediax )
+
+	Website: 	bmediax.com
+	Email: 		contact@bmediax.com
+
+	Instagram:  @Bmediax
+	Facebook:   /bmediax
+	Flickr:     /photos/bmediax
+
+	Nice to meet you, and hope to work on a project with you!
+-->
+<html lang="en">
+	<head>
+		<!-- Title -->
+		<title> Alex for PCC </title>
+		<meta charset="UTF-8" />
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118007214-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-118007214-2');
+		</script>
+
+
+		<!-- Meta -->
+		<meta name="Author" content="Alexander Diaz Rios" />
+		<meta name="Description" content="Alex Díaz Rios. Candidate for Director PCC Zone 7. Teacher. Community Advocate. A voice for Students #breakingbarriers #creatingchange" />
+		<meta name="Keywords" content="Alexander Díaz Rios, Alex, Alex for PCC, Alexander For PCC, Portland Community College, Portland, Community, College, Zone 7, PCC Zone 7, PCC Board Zone 7, Alexforpcc.com, Chicanx, Latinx, Portland Latinx, Portland Chicanx, Oregon Latinx, Oregon Chicanx, Community Advocate, Portland Community Advocate, Breaking Barriers, Creating Change, Liberty High School, MEChA, Portland MEChA, Oregon MEChA, Celebrating Diversity, Elevating Equity, Finance Equity, Building Community, Building Community Coalition" />
+		<meta name="image" content="https://alexforpcc.com/assets/gfx/logo.png" />
+		<meta name="yandex-verification" content="1382744982ecdb83" />
+
+		<!-- Schema.org for Google -->
+		<meta itemprop="name" content="Alex for PCC" />
+		<meta itemprop="description" content="Alex Díaz Rios. Candidate for Director PCC Zone 7. Teacher. Community Advocate. A voice for Students #breakingbarriers #creatingchange" />
+		<meta itemprop="image" content="https://alexforpcc.com/assets/gfx/logo.png" />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Alex for PCC" />
+		<meta name="twitter:description" content="Alex Díaz Rios. Candidate for Director PCC Zone 7. Teacher. Community Advocate. A voice for Students #breakingbarriers #creatingchange" />
+		<meta name="twitter:image:src" content="https://alexforpcc.com/assets/gfx/logo.png" />
+
+		<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+		<meta name="og:title" content="Alex for PCC" />
+		<meta name="og:description" content="Alex Díaz Rios. Candidate for Director PCC Zone 7. Teacher. Community Advocate. A voice for Students #breakingbarriers #creatingchange" />
+		<meta name="og:image" content="https://alexforpcc.com/assets/gfx/logo.png" />
+		<meta name="og:url" content="https://alexforpcc.com" />
+		<meta name="og:site_name" content="Alex for PCC" />
+		<meta name="og:type" content="website" />
+
+		<!-- Mobile Support -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Google Fonts -->
+		<link href="style/css/google_open-roboto.css" rel="stylesheet" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="style/css/main.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+		<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c6dec0d9719b800115b6520&product=sticky-share-buttons' async='async'></script>
+
+		<!-- jQuery & Javascript -->
+		<script src="scripts/jquery.js"></script>
+		<script src="scripts/main-min.js"></script>
+
+		<!-- jQuery Libraries -->
+		<script src="scripts/parallax.min.js"></script>
+
+		<!-- jQuery Parallax -->
+		<script src="scripts/parallax.min.js"></script>
+		<script src="scripts/jquery.paroller.min.js"></script>
+
+		<!-- jQuery Modal -->
+		<script src="scripts/jquery.modal.min.js"></script>
+		<link rel="stylesheet" href="style/css/jquery-modal.css" />
+
+		<!-- AddEvent script -->
+		<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+
+		<!-- jQuery UI -->
+		<link rel="stylesheet" type="text/css" href="libs/jquery-ui/css/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="libs/jquery-ui/css/jquery-ui.theme.css" />
+		<link rel="stylesheet" type="text/css" href="libs/jquery-ui/css/jquery-ui.structure.css" />
+		<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+
+		<!-- Navigation Activator -->
+		<script>
+		$(document).ready(function(){
+			$("#nav-mobile").click(function() {
+				$("#nav-desktop").slideToggle( "normal" );
+			});
+			$("#support").accordion({heightStyle: "content", collapsible: true});
+			$('h1.title').paroller({
+				factor: 0.1,            // multiplier for scrolling speed and offset
+				factorXs: 0.1,          // multiplier for scrolling speed and offset if window width is <576px
+				factorSm: 0.2,          // multiplier for scrolling speed and offset if window width is <=768px
+				factorMd: 0.2,          // multiplier for scrolling speed and offset if window width is <=1024px
+				factorLg: 0.2,          // multiplier for scrolling speed and offset if window width is <=1200px
+				type: 'foreground',
+				direction: 'vertical'
+			});
+			$(".img-parallax-up").paroller({
+				factor: 0.2,            // multiplier for scrolling speed and offset
+				factorXs: -0.1,          // multiplier for scrolling speed and offset if window width is <576px
+				factorSm: 0.2,          // multiplier for scrolling speed and offset if window width is <=768px
+				factorMd: 0.2,          // multiplier for scrolling speed and offset if window width is <=1024px
+				factorLg: 0.3,          // multiplier for scrolling speed and offset if window width is <=1200px
+				type: 'foreground',
+				direction: 'vertical'
+			});
+			$(".img-parallax-down").paroller({
+				factor: -0.1,            // multiplier for scrolling speed and offset
+				factorXs: -0.1,          // multiplier for scrolling speed and offset if window width is <576px
+				factorSm: -0.2,          // multiplier for scrolling speed and offset if window width is <=768px
+				factorMd: -0.2,          // multiplier for scrolling speed and offset if window width is <=1024px
+				factorLg: -0.3,          // multiplier for scrolling speed and offset if window width is <=1200px
+				type: 'foreground',
+				direction: 'vertical'
+			});
+		});
+		</script>
+		<script type="text/javascript">
+		window.addeventasync = function(){
+		    addeventatc.settings({
+		        appleical  : {show:true, text:"Apple Calendar"},
+		        google     : {show:true, text:"Google <em>(online)</em>"},
+		        outlook    : {show:true, text:"Outlook"},
+		        outlookcom : {show:true, text:"Outlook.com <em>(online)</em>"},
+		        yahoo      : {show:true, text:"Yahoo <em>(online)</em>"},
+				  license : "aTxrAIzktzqJhHaoImmB62479",
+				  facebook : {show:true, text:"Facebook"}
+		    });
+		};
+		</script>
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div id="top-bar">
+				<div class="top-bar_wrapper">
+					<div class="sm-top">
+						<ul>
+							<li><a href="https://www.facebook.com/Alex4PCC/"><img src="assets/gfx/sm/fb.png" /></a></li>
+							<li><a href="https://www.instagram.com/alexforpcc"><img src="assets/gfx/sm/insta.png" /></a></li>
+							<li><a href="mailto:friendsofalexander@gmail.com"><img src="assets/gfx/sm/email.png" /></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Logo -->
+			<embed src="assets/gfx/svg/logo.svg" type="image/svg+xml" id="logo" />
+
+			<!-- Navigation -->
+			<nav>
+				<div id="nav-wrapper">
+					<i id="nav-mobile" class="fas fa-ellipsis-h"></i>
+					<!-- <i id="nav-mobile" class="fas fa-bars"></i> -->
+					<ul id="nav-desktop">
+						<li><a href="#meet-alex">Meet Alex</a></li>
+						<li><a href="#priorities">Priorities</a></li>
+						<li><a href="#supporters">Supporters</a></li>
+						<li><a href="#events">Stay Connected</a></li>
+					</ul>
+				</div>
+			</nav>
+			<a href="https://secure.actblue.com/donate/friends-of-alex-diaz-rios-1" id="donate">Donate</a>
+		</header>
+
+		<div class="parallax-window" data-speed="0.4" data-parallax="scroll" data-image-src="assets/img/alex-with-youths.jpg"></div>
+
+		<!-- About -->
+		<article>
+			<!-- Meet Alexander -->
+			<section id="meet-alex" class="odd">
+				<div class="two-collumn">
+					<h1 class="title" id="meet-alexs"> Meet Alex </h1>
+					<div class="two-collumn-profile">
+						<div class="two-collumn-picture alex-pic"></div>
+						<div class="two-collumn-text">
+							<div class="two-info">
+								<h1 class="editable">Alexander Diaz Rios</h1>
+								<h3 class="editable">
+									<strong>He, Him, His, &Eacute;l</strong>
+								</h3>
+								<p class="editable">My name is Alexander (Alex) Diaz Rios -- I am a passionate advocate for education as a first-generation college graduate and public-school teacher.</p>
+								<p class="editable">I currently teach social studies and college/career readiness at Westview High School and CREATE Alternative School.</p>
+								<p><a rel="modal:open" class="btn btn-light" href="#about-alex">Learn More</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Alex Story -->
+				<div class="meet-alex_story">
+					<div class="meet-alex_part1-descr left">
+						<div class="descr-wrap">
+							<p class="editable">As a lifelong resident of Washington County and a former Portland Community College student, I understand the growth and challenges facing our community.</p>
+
+							<p class="editable">I have experienced the high cost of higher education and relied on the vital retention/support programs as a first-generation college student. As a student, I witness and hear the struggles that many college students face such a lack of guidance, food insecurity, and raising tuition.</p>
+						</div>
+					</div>
+					<!-- .alex-youthgrad -->
+					<div class="meet-alex_part1-img right">
+						<img class="img-parallax-up" src="assets/gfx/pcc-grad.png" style="text-align:center;margin:auto;"/>
+					</div>
+				</div>
+				<div class="meet-alex_story">
+					<div class="meet-alex_part1-img left">
+						<img class="img-parallax-down" src="assets/gfx/world.png" style="text-align:center;margin:auto;"/>
+					</div>
+					<div class="meet-alex_part1-descr right">
+						<div class="descr-wrap">
+							<p class="editable">Through my dedication and hard work, I earned a Bachelors of Science in Social Science from Portland State University and a Masters of Arts in Teaching from Pacific University.</p>
+
+							<p class="editable">I have been committed to serving students and the community by working in schools for the past eight years.</p>
+						</div>
+					</div>
+				</div>
+				<a href="#about-alex" rel="modal:open" class="btn btn-light btn-section">Learn More</a>
+				<div id="about-alex" class="modal">
+					<div class="modal-head">
+						<h1 class="editable">Alexander's Biography</h1>
+					</div>
+					<div class="modal-body">
+						<br />
+						<img src="assets/img/alex-teach.jpg" class="editable" />
+
+						<p class="editable">My name is Alexander (Alex) Diaz Rios-- I am a passionate advocate for education as a first-generation college graduate and public-school teacher. I currently teach social studies and college/career readiness at Westview High School and CREATE Alternative School. As a lifelong resident of Washington County and a former Portland Community College student, I understand the growth and challenges facing our community.</p>
+
+						<p class="editable">I have experienced the high cost of higher education and relied on the vital retention/support programs as a first-generation college student. As a student, I witness and hear the struggles that many college students face such a lack of guidance, food insecurity, and raising tuition. Through my dedication and hard work, I earned a Bachelors of Science in Social Science from Portland State University and a Masters of Arts in Teaching from Pacific University.</p>
+
+						<p class="editable">I have been committed to serving students and the community by working in schools for the past eight years. As part of a group of dedicated young Latinx leaders, I helped found the Willamette Chicano Alliance, a non-profit that serves Latinx youth with college/career readiness, leadership, and mentoring programs. I also serve on the budget committee for the city of Hillsboro and the Hillsboro School District, providing me insight in fiscal responsibility.</p>
+
+						<p class="editable">As a teacher, I work directly with seniors who are anxiously developing their next steps after high school. Many of my students worry about the cost of higher education, transitioning to college, and career options. I am dedicated to building a community coalition to find innovative ways to address the evolving needs of students and partners in our area.</p>
+
+						<img src="assets/img/alex-team.jpg" alt="Alex sits with team" class="editable" />
+
+						<p class="editable">Prior to teaching, I was a graduation coach at Liberty High School-- a role where I mentored predominantly at-risk Latinx boys. In this role, I gained extensive experience working with students, educators, administrators, and community members. I value teamwork and collaboration in finding creative and effective solutions. My work at Liberty HS increased the number of graduation coaches, started a pilot program for ethnic studies, and expanded college and career readiness initiatives.</p>
+
+						<p class="editable">I was raised by a single mother, along with my six sisters and one brother. As a brother and proud uncle, my family is the most important thing to me. In my free time, you can find me exploring nature throughout Oregon, reading about history, and spending time with family and friends.</p>
+
+						<p class="editable">I am grateful by the support I have received and look forward to becoming a voice to for students, staff and all stakeholders by serving as the Board Director of Portland Community College for Zone 7.</p>
+						<!-- <div class="sharethis-inline-share-buttons"></div> -->
+					</div>
+					<div class="modal-close">
+						<br />
+					  	<a href="#" class="closing" rel="modal:close">Close</a>
+					</div>
+				</div>
+			</section>
+			<div class="parallax-window" data-speed="0.4" data-parallax="scroll" data-image-src="assets/img/team-look-bg.jpg"></div>
+			<!-- Priorities -->
+			<section id="priorities" class="even pages">
+				<div class="two-collumn">
+					<h1 class="title"> Priorities </h1>
+					<div class="two-collumn-profile">
+						<div class="two-collumn-picture equity"></div>
+						<div class="two-collumn-text">
+							<div class="two-info">
+								<h1 class="editable">Celebrating Diversity and Elevating Equity</h1>
+
+								<p class="editable">Every student, regardless of their race, academic ability, or socioeconomic should be given access to quality education and services.</p>
+
+								<a href="#equity" rel="modal:open" class="btn btn-light">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="equity" class="modal">
+					<div class="modal-head">
+						<div class="modal-pic"></div>
+						<h1 class="editable">Celebrating Diversity and Elevating Equity:</h1>
+					</div>
+					<div class="modal-body">
+						<p class="editable">Every student, regardless of their race, academic ability, or socioeconomic status should be given access to quality education and services. Portland Community College is a diverse community where we must celebrate the rich backgrounds and experiences of our student population. I will ensure that the board remains focused on diversity, equity, and inclusion for all students and stakeholders, especially those who are underserved and underrepresented in our system.</p>
+
+						<p class="editable"><b>I will advocate for:</b></p>
+
+						<div class="editable">
+							<ul>
+								<li>Increased access to retention/support services and programs</li>
+								<li>Equitable access to academic and vocational programs</li>
+								<li>Implementation of curricula and programs that are culturally relevant and inclusive</li>
+							</ul>
+						</div>
+						<div class="sharethis-inline-share-buttons"></div>
+					</div>
+					<div class="modal-close">
+						<br />
+				  		<a href="#" class="closing" rel="modal:close">Close</a>
+					</div>
+				</div>
+				<div class="two-collumn">
+					<div class="two-collumn-profile">
+						<div class="two-collumn-picture money"></div>
+						<div class="two-collumn-text">
+							<div class="two-info">
+								<h1 class="editable">Finance Equity</h1>
+
+								<p class="editable">Community colleges are expected to be impacted in the next biennium as forecasted by the state's budget. I will work tiressly on legislative advocacy to help achieve stable and adequate education funding to prevent a tuition hike.</p>
+
+								<a href="#money" rel="modal:open" class="btn btn-light">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="money" class="modal">
+					<div class="modal-head">
+						<div class="modal-pic"></div>
+						<h1 class="editable">Finance Equity:</h1>
+					</div>
+					<div class="modal-body">
+						<p class="editable">Community colleges are expected to be impacted in the next biennium, as forecasted by the state’s budget. To ensure that Portland Community College is able to maintain and operate at current service levels, I will work tirelessly on legislative advocacy to help achieve stable and adequate education funding to prevent a tuition hike that would adversely affect unrepresented and first-generation students. I plan to advocate on the behalf of Portland Community College and provide testimony to elected officials in Washington County and throughout the state.</p>
+
+						<p class="editable"><b>I will advocate for:</b></p>
+
+						<div class="editable">
+							<ul>
+								<li>A budget process that is student-centered with an equitable framework</li>
+								<li>A focus on maintaining current service levels and long-range strategic planning </li>
+								<li>Increased communication and inclusion on budget development with students, staff, and stakeholders</li>
+							</ul>
+						</div>
+						<div class="sharethis-inline-share-buttons"></div>
+					</div>
+					<div class="modal-close">
+						<br />
+					  	<a href="#" class="closing" rel="modal:close">Close</a>
+					</div>
+				</div>
+				<div class="two-collumn">
+					<div class="two-collumn-profile">
+						<div class="two-collumn-picture community"></div>
+						<div class="two-collumn-text">
+							<div class="two-info">
+								<h1 class="editable">Building a Community Coalition</h1>
+
+								<p class="editable">The major functions of a board is to liasion between campus administrators and students and larger community. I believe and will ensure that we foster a culture of communication, to be more transparent.</p>
+
+								<a href="#community" rel="modal:open" class="btn btn-light">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="community" class="modal">
+					<div class="modal-head">
+						<div class="modal-pic"></div>
+						<h1 class="editable">Building a Community Coalition:</h1>
+					</div>
+					<div class="modal-body">
+						<p class="editable">The major function of a board is to act as a liaison between campus administrators and students and the larger community. I will ensure that we foster a culture of communication and transparency. Together, we can build a coalition to find solutions to that affect our system and the greater community.  Considering our diverse student population and partnerships, we need to communicate and engage with our community more effectively.</p>
+
+						<p class="editable"><b>I will advocate for:</b></p>
+
+						<div class="editable">
+							<ul>
+								<li>Expansion of student leadership initiatives and student representation</li><br />
+								<li>Strategic relationships with educational institutions and community partners</li><br />
+								<li>Increased accessibility for stakeholders and community members to communicate with the members of the board</li>
+							</ul>
+						</div>
+						<div class="sharethis-inline-share-buttons"></div>
+					</div>
+					<div class="modal-close">
+						<br />
+					  	<a href="#" class="closing" rel="modal:close">Close</a>
+					</div>
+				</div>
+			</section>
+			<!-- Get Involved -->
+			<!-- <section id="get-involved">
+			</section> -->
+
+			<!-- Supporters -->
+			<section id="supporters" class="odd">
+				<div class="one-collumn">
+					<h1 class="title">Supporters</h1>
+
+					<div id="support" class="editable">
+						<h3>Elected Officials</h3>
+						<div>
+							<ul>
+								<li><b>State Representative</b> Susan McLain</li>
+								<li><b>Former State Representative</b> Joesph Gallegos</li>
+								<li><b>Washington County Commission Chair</b> Kathryn Harrington</li>
+								<li><b>Metro Councilor</b> Juan Carlos Gonzalez</li>
+								<li><b>Portland Community College Zone 5 Board Director</b> Valdez Bravo</li>
+								<li><b>Mayor of Cornelius</b> Jeff Dalin</li>
+								<li><b>Forest Grove Mayor</b> Peter Truax</li>
+								<li><b>North Plains Mayor</b> Teri Lenahan</li>
+								<li><b>Cornelius City Councilor</b> Luis Hernandez</li>
+								<li><b>Hillsboro City Councilor</b> Olivia Alcaire</li>
+								<li><b>Hillsboro City Councilor</b> Anthony Martin</li>
+								<li><b>Hillsboro City Councilor</b> Kyle Allen </li>
+								<li><b>Former Hillsboro City Councilor</b> Olga Acuna</li>
+								<li><b>Hillsboro School Board Chair</b> Lisa Allen</li>
+								<li><b>Hillsboro School Board Director</b> Martin Granum</li>
+								<li><b>Hillsboro School Board Director</b> Mark Watson</li>
+								<li><b>Hillsboro School Board Director</b> Erika Lopez</li>
+								<li><b>Hillsboro School Board Director</b> Yadira Martinez</li>
+							</ul>
+						</div>
+						<h3>Community Leaders</h3>
+						<div>
+							<ul>
+								<li>Maria Caballero Rubio, Community Leader</li>
+								<li>Jaime Rodriguez, Community Leader</li>
+								<li>See Eun Kim,Community Leader</li>
+								<li>Hector Hinojosa, Community Leader</li>
+								<li>Nicole Mito Ahern, Hillsboro School District Teacher</li>
+								<li>Ashley Galik, Scappoose School District Teacher</li>
+							</ul>
+						</div>
+						<h3>Students</h3>
+						<div>
+							<ul>
+								<li>Cristian Tucux Mejia, Portland Community College Student</li>
+								<li>Alejandra Juarez, Portland Community College Student</li>
+								<li>Flor Rios, Portland Community College Student</li>
+								<li>Juan Diego Ramirez, Portland Community College Student</li>
+								<li>Sophia O'Neal, Pacific University Student</li>
+							</ul>
+						</div>
+						<h3>Community Organizations</h3>
+						<div>
+							<ul>
+								<li>Miguel Moreno, Executive Director, <a href="https://chicanoalliance.org" target="_blank">Willamette Chicano Alliance</a></li>
+								<li><a href="https://washcodems.org/">Washington County Democrats</a></li>
+								<li><a href="https://workingfamilies.org/states/oregon/">Oregon Working Families</a></li>
+								<li><a href="https://www.ufcw555.org/">United Food and Commercial Workers 5555</a></li>
+								<li><a href="https://pccffap.org/">Portland Community College Federation of Faculty & Academic Professionals, AFT Local 2277</a></li>
+								<li><a href="https://sites.google.com/site/pccfcelocal3922/home">PCC Federation of Classified Employees, AFT Local 3922</a></li>
+							</ul>
+						</div>
+						<h3>Businesses</h3>
+						<div>
+							<ul>
+								<li>Brian Moreno, Co - Founder, <a href="https://chicanxapparel.com" target="_blank">Chicanx Apparel LLC.</a></li>
+								<li>Agustin Rios, <a href="http://fourseasonslm.com/" target="_blank">Four Seasons Landscape Maintenance Owner</a></li>
+								<li>María Elena and Orlando Agustin Juarez, <a href="https://www.yelp.com/biz/la-princesa-hillsboro" target="_blank">La Princesa Owners</a></li>
+								<li><a href="https://panaderiaypastelerialaimperial.com/" target="_blank">La Imperial Bakery Owners</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Events Section -->
+			<section id="events" class="even">
+				<div class="one-collumn">
+					<h1 class="title"> Events </h1>
+
+					<div class="event-item event-over">
+						<div class="event-date">
+							<div class="event-date-wrap">
+								<span class="day editable">16</span>
+								<span class="month editable">March</span>
+							</div>
+						</div>
+						<div class="event-description">
+							<div class="event-description-wrap">
+								<h2 class="title editable">Campaign Kick - Off</h2>
+								<p class="description editable">Join us for food, drinks, and community celebration as we kick off our campaign for Portland Community College Board of Directors- Zone 7!</p>
+								<a href="https://www.facebook.com/events/355079231757664/" target"_blank" class="button">View Recap</a>
+								<div title="Add to Calendar" class="addeventatc">
+								    Add to Calendar
+								    <span class="start">03/20/2019 08:00 AM</span>
+								    <span class="end">03/20/2019 10:00 AM</span>
+								    <span class="timezone">America/Los_Angeles</span>
+								    <span class="title">Summary of the event</span>
+								    <span class="description">Description of the event</span>
+								    <span class="location">Location of the event</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="event-item event-next">
+						<div class="event-date">
+							<div class="event-date-wrap">
+								<span class="day editable">16</span>
+								<span class="month editable">March</span>
+							</div>
+						</div>
+						<div class="event-description">
+							<div class="event-description-wrap">
+								<h2 class="title editable">Hillsboro St. Patrick's Day Parade</h2>
+								<p class="description editable">We will start staging at 10:00 AM in the parking lot across from Hare Field(1151 NE Grant St, Hillsboro, OR 97124), on NE Grant Street in Hillsboro. The parade starts at 11AM at Hare Field. The parade route continues East to Cornell Road, South to Main Street, West on Main to 2nd Ave, North on 2nd to Grant Street, and East back to Hare Field.</p>
+								<div title="Add to Calendar" class="addeventatc">
+								    Add to Calendar
+								    <span class="start">03/16/2019 10:00 AM</span>
+								    <span class="end">03/16/2019 12:00 PM</span>
+								    <span class="timezone">America/Los_Angeles</span>
+								    <span class="title">Hillsboro St. Patrick's Day Parade</span>
+								    <span class="description">We will start staging at 10:00 AM in the parking lot across from Hare Field(1151 NE Grant St, Hillsboro, OR 97124), on NE Grant Street in Hillsboro. The parade starts at 11AM at Hare Field. The parade route continues East to Cornell Road, South to Main Street, West on Main to 2nd Ave, North on 2nd to Grant Street, and East back to Hare Field.</span>
+								    <span class="location">1151 NE Grant St, Hillsboro, OR 97124</span>
+									 <span class="organizer">Alex for PCC</span>
+									 <span class="organizer_email">friendsofalexander@gmail.com</span>
+									 <span class="facebook_event">https://www.facebook.com/events/2060959727344822/</span>
+									 <span class="alarm_reminder">60</span>
+									 <span class="calname">Hillsboro_St-Patrick's-day_Parade</span>
+									 <span class="client">aTxrAIzktzqJhHaoImmB62479</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="team-alexforpcc" class="odd pages">
+				<h1 class="title">Our Team</h1>
+				<!-- Sophia: Intro -->
+				<div class="two-collumn">
+					<div class="two-collumn-profile">
+						<div class="two-collumn-picture sophia"></div>
+						<div class="two-collumn-text">
+							<div class="two-info">
+								<h1 class="editable">Sophia O'Neal</h1>
+								<h2 class="editable">Campaign Manager</h2>
+								<p class="editable">Sophia O&rsquo;Neal, campaign manager for Alex for PCC, is a junior political science major at Pacific University in Forest Grove.</p>
+								<a rel="modal:open" class="btn btn-light" href="#about-sophia">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Sophia: Profile -->
+				<div id="about-sophia" class="modal">
+					<div class="modal-header">
+						<!-- Modal Pic -->
+						<div class="modal-pic"></div>
+
+						<h1 class="editable">Sophia O'neal:</h1>
+						<h2 class="editable"> Campaign Manager </h2>
+						<ul class="team-sm">
+							<li><a href="#"><img src="assets/gfx/sm/fb.png" /></a></li>
+							<li><a href="#"><img src="assets/gfx/sm/insta.png" /></a></li>
+							<li><a href="#"><img src="assets/gfx/sm/email.png" /></a></li>
+						</ul>
+					</div>
+
+					<div class="modal-body">
+						<p class="editable">Sophia O’Neal, campaign manager for Alex for PCC, is a junior political science major at Pacific University in Forest Grove. Originally from California, Sophia is a passionate student leader.</p>
+
+						<p class="editable">She has worked for Pacific’s Center for Gender Equity, Student Multicultural Center, as well as College Democrats at the chapter, state, and national levels. In these positions, Sophia has helped organize dozens of events annually on her campus that highlight issues of inequality of gender, sexuality, race, and culture. As a college student, Sophia first-handedly sees the value of including college students in political decision-making.</p>
+
+						<p class="editable">Sophia joined Alex’s campaign because “Alex is the candidate who is genuinely invested in bringing students’ voices and experiences to the forefront of his campaign. He cares about our concerns and passions, and wants to find pragmatic and compassionate solutions to help everyone in the Portland Community College system.”</p>
+					</div>
+					<div class="modal-close">
+						<br />
+						<a href="#" class="closing" rel="modal:close">Close</a>
+			  		</div>
+				</div>
+
+				<!-- Brian: Intro -->
+				<div class="two-collumn">
+					<div class="two-collumn-profile">
+						<div class="two-collumn-picture brian"></div>
+						<div class="two-collumn-text">
+							<div class="two-info">
+								<h1>Brian Moreno</h1>
+								<h2>Web Developer</h2>
+
+								<p>Brian Moreno, Web Developer for Alex for PCC, is Co - Founder of Chicanx Apparel and Communications Director Willamette Chicano Alliance.</p>
+
+								<a href="#about-brian" rel="modal:open" class="btn btn-light">Learn More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Brian: Profile -->
+				<div id="about-brian" class="modal">
+					<div class="modal-header">
+						<!-- Modal Pic -->
+						<div class="modal-pic"></div>
+
+						<h1>Brian Moreno:</h1>
+						<h2> Web Developer </h2>
+						<ul class="team-sm">
+							<li><a href="https://www.facebook.com/bmediax/"><img src="assets/gfx/sm/fb.png" /></a></li>
+							<li><a href="https://www.instagram.com/bmediax/"><img src="assets/gfx/sm/insta.png" /></a></li>
+							<li><a href="mailto:contact@bmediax.com"><img src="assets/gfx/sm/email.png" /></a></li>
+						</ul>
+					</div>
+					<div class="modal-body">
+						<p>Meet our team! Brian Moreno, Web Developer for Alex for PCC, is Co-Founder of Chicanx Apparel and Communications Director Willamette Chicano Alliance.</p>
+
+						<p>Brian is a self-taught Web Developer, Photographer, and Graphic Designer. He has also been involved in various leadership student groups such as President of Benson Polytechnic High School and Coordinator of PCC MEChA Cascade.</p>
+
+						<p>When he is not designing interfaces or coding, you can often find him out and about with his trusty Canon camera and a good cup of coffee, capturing the world's beautiful raw moments.</p>
+
+						<p>Brian joined Alex's campaign because, just as he worked with Alex in the Willamette Chicano Alliance, Brian is inspired by Alex's dedication to our community, active involvement in what is going on systemically and socially within our community, and his openness to hearing our community concerns and effort to make our voices heard.</p>
+					</div>
+					<div class="modal-exit">
+						<br />
+						<a href="#" class="closing" rel="modal:close">Close</a>
+					</div>
+				</div>
+			</section>
+			<!-- <section id="stay-connected" class="odd">
+				<div class="one-collumn">
+					<h1 class="title">Stay Connected</h1>
+
+				</div>
+			</section> -->
+		</article>
+		<!-- Footers -->
+		<footer id="footer">
+			<!--<div class="parallax-window" id="footer-bg" data-speed="0.4" data-parallax="scroll" data-image-src="assets/img/alex-footer-blue.jpg"></div>-->
+			 <div id="alex-footer"></div>
+			<div id="footer-logo">
+				<img src="assets/gfx/logo.png" />
+			</div>
+			<div id="footer-info">
+				<div class="footer-info">
+					<div id="footer-copyright" class="editable">Alex for PCC &copy; 2019 <span class="friends-footer">by Friends of Alex Diaz Rios</span></div>
+					<div id="footer-socialmedia">
+						<ul>
+							<li><a href="https://www.facebook.com/Alex4PCC/"><img src="assets/gfx/sm/fb.png" /></a></li>
+							<li><a href="https://www.instagram.com/alexforpcc/"><img src="assets/gfx/sm/insta.png" /></a></li>
+							<li><a href="mailto:friendsofalexander@gmail.com"><img src="assets/gfx/sm/email.png" /></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
